@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Header.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="navbar clearfix">
+            <div id="logo-box">
+                <a href="" class="logo">SQUAD</a>
+            </div>
+            <div id="nav-links" class="responsive">
+                <ul>
+                    <li class="nav-item nav-icon">
+                        <a href="" class="nav-link">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"><i class="fa-solid fa-plus fa-2xl"></i> Bir Yolculuk Yayınla</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i>ARA</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link "><i class="fa-solid fa-user fa-2xl"></i>Giriş Yap / Kayıt Ol</a>
+                        
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="bg-image"></div>
+        </div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+        $(".nav-icon").click(function () {
+            $("#nav-links").toggleClass("responsive");
+            return false;
+        });
+    </script>
+
+</html>
