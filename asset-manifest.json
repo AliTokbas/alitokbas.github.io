@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/alitokbas.github.io/static/css/main.18489504.css",
+    "main.js": "/alitokbas.github.io/static/js/main.7cde46f7.js",
+    "static/js/787.e577274b.chunk.js": "/alitokbas.github.io/static/js/787.e577274b.chunk.js",
+    "static/media/spor.png": "/alitokbas.github.io/static/media/spor.e8b59fd2427c06a6c644.png",
+    "static/media/sedan.png": "/alitokbas.github.io/static/media/sedan.ecbf1338ff8143881d9e.png",
+    "static/media/klasik.png": "/alitokbas.github.io/static/media/klasik.8df0e27af99cefd9293f.png",
+    "static/media/suv.png": "/alitokbas.github.io/static/media/suv.b5fa21e097e62e57fefa.png",
+    "static/media/header.jpg": "/alitokbas.github.io/static/media/header.62d6167192e4ff2b5dd1.jpg",
+    "index.html": "/alitokbas.github.io/index.html",
+    "main.18489504.css.map": "/alitokbas.github.io/static/css/main.18489504.css.map",
+    "main.7cde46f7.js.map": "/alitokbas.github.io/static/js/main.7cde46f7.js.map",
+    "787.e577274b.chunk.js.map": "/alitokbas.github.io/static/js/787.e577274b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18489504.css",
+    "static/js/main.7cde46f7.js"
+  ]
+}
