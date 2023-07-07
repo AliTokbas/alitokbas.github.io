@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    align-items: center;
+    background-color: #a4a4a4a4;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  header {
+    height: 46rem;
+    padding-top: 75px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+  header .bg-image {
+    position: absolute;
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+    top: 70px;
+  }
+  
+  header h1 {
+    padding: 12rem;
+    padding-bottom: 0;
+  }
+  
+  
+  #baslik {
+    margin-top: 70px;
+    padding: 30px 0px;
+    
+  
+  }
+  
+  #baslik hr {
+    width: 70%;
+    margin: auto;
+  }
+  
+  #baslik h1 {
+    color: black;
+    display: block;
+    
+    font-size: 4rem;
+  
+  }
+  
+  .container {
+   
+    background-color: #e6e8e9;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 30px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 45%;
+    margin: 10px 10px;
+    
+   }
+
+   .container h1 {
+    color:black;
+   }
+
+   .container p{
+    color:black;
+   }
+  
+  .wrapper {
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  img{
+    height:auto;
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid #132B68;
+  margin-bottom: 15px;
+  }
+  
+  .button-wrapper {
+    margin-top: 15px;
+  }
+  
+  .btn {
+    border: none;
+    padding: 12px 50px;
+    border-radius: 24px;
+  
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+  
+  
+  }
+  
+  .btn+.btn {
+    margin-left: 10px;
+  
+  }
+  
+  .outline {
+    background: transparent;
+    color: #132B68;
+    border: 3px solid #132B68;
+    transition: all .3s ease;
+  
+  
+  }
+  .outline a:visited{
+    text-decoration: none;
+
+  }
+  
+  .outline:hover {
+    transform: scale(1.125);
+    color: #C2630A;
+    border-color: #C2630A;
+    transition: all .3s ease;
+  }
+  
+  .fill {
+    background: rgba(255, 81, 0, 0.9);
+    
+    filter: drop-shadow(0);
+    font-weight: bold;
+    transition: all .3s ease;
+  }
+  
+  .fill:hover {
+    transform: scale(1.125);
+    border-color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125));
+    transition: all .3s ease;
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+        width: 90%;
+       
+    }
+    img{
+    height: auto;
+      width: 100%;
+      border-radius: 15px;
+      border: 1px solid rgba(255,255,255, 0.255);
+    }
+  }
